@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#fb0, #f2a50c);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #320;
+  font-size: 20px;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.button:hover {
+  background: linear-gradient(#f2a50c, #e59137);
+}
+
+@media (max-width: 600px) {
+  .button {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
