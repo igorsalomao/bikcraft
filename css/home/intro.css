@@ -1,6 +1,6 @@
 .intro-bg {
-  background-color: var(--color-12);
-  box-shadow: inset 0 -120px var(--color-0);
+  background-color: var(--color-11);
+  /* box-shadow: inset 0 -120px var(--color-0); */
 }
 
 .intro {
@@ -10,11 +10,12 @@
 }
 
 .intro-conteudo {
-  align-self: end;
+  align-items: end;
   padding-bottom: 200px;
 }
 
 .intro img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
