@@ -4,8 +4,11 @@
 
 @import "./global/header.css";
 
-/* Utilidades */
+/* Utilities */
 @import "./utilities/components.css";
 
 /* Home */
 @import "./home/intro.css";
+
+/* Bikes */
+@import "./bicicletas/bike-list.css";
