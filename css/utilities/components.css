@@ -15,11 +15,21 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--color-p5);
-  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
 }
 
 .button:hover {
   background: linear-gradient(#f2a50c, #e59137);
+}
+
+.button.secondary {
+  background: var(--color-10);
+  color: var(--color-2);
+}
+
+.button.secondary:hover {
+  background: var(--color-9);
 }
 
 @media (max-width: 600px) {
