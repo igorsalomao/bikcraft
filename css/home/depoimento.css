@@ -15,14 +15,16 @@
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
 }
 
 .depoimento-conteudo p {
+  max-width: 32ch;
   font-family: "Merriweather", serif;
   font-style: italic;
   font-weight: 900;
   margin-bottom: 32px;
-  max-width: 32ch;
   position: relative;
 }
 
@@ -35,12 +37,18 @@
 
 .depoimento p::before {
   content: "“";
-  top: -20px;
   left: -50px;
+  top: -20px;
 }
 
 .depoimento p::after {
   content: "”";
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -53,6 +61,6 @@
   }
   .depoimento-conteudo {
     padding: 40px 20px;
-    justify-self: center;
+    margin: auto;
   }
 }
